@@ -1,11 +1,10 @@
 <nav>
     <div class="nav-container">
-        <a href="/" class="nav-logo" title="Back to Homepage">Имя Фамилия</a>
+        <a href="/" class="nav-logo" title="Back to Homepage">Главная страница</a>
         <div class="nav-links">
-            <a href="/about" class="link">Обо мне</a>
-            <a href="/blog" class="link">Блог</a>
-            <a href="/projects" class="link">Портфолио</a>
-            <a href="/contact" class="link">Контакты</a>
+            <a href="/first" class="link">Первый этаж</a>
+            <a href="/second" class="link">Второй этаж</a>
+            <a href="/third" class="link">Третий этаж</a>
         </div>
     </div>
 </nav>

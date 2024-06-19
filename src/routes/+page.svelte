@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Имя Фамилия</title>
+    <title>Виртуальная экскурсия</title>
 </svelte:head>
 
 <div class='container'>
@@ -8,16 +8,15 @@
             <div class='container info-container'>
                 <div class='info-text'>
                     <h1>
-                    <p class='animate-text-1'>Lorem ipsum dolor sit,</p>
-                    <p class='text-2'>Lorem ipsum dolor sit amet.</p>
+                    <p class='animate-text-1'>Виртуальная экскурсия</p>
+                    <p class='text-2'>по МБОУ "СОШ №26" г. Абакана</p>
                     </h1>
                 </div>
                 <h2 class='subtitle'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto aut, cupiditate dolores
-                    ducimus expedita labore nemo odio quibusdam quidem sapiente soluta.
+                    Сейчас мы покажем вам нашу школу. Мы постарались описать кабинеты, залы и коридоры так, чтобы вы как будто очутились внутри.
                 </h2>
                 <div style='color:black' class='scroll-button animate-scroll' tabindex='0'>
-                    <a href='/about'>Click Here</a>
+                    <a href='/first'>Начать</a>
                     <div class='arrow'>→</div>
                 </div>
             </div>
@@ -40,8 +39,8 @@
         align-items: start;
     }
     .container {
-        max-width: 1400px;
-        margin: 190px 0 0 2.5rem;
+        max-width: 1200px;
+        margin: 150px 0 25px 2.5rem;
     }
     .info h1 {
         font-size: 4rem;
@@ -63,7 +62,7 @@
         margin-top: 0.50rem;
     }
     .background-div {
-        background-color: #ecebe8;
+        background-color: #87CEEB;
         width: 100%;
         height: 56vh;
         margin: -205px auto;
